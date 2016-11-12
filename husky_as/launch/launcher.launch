@@ -1,0 +1,7 @@
+<launch>
+    <node pkg="husky_as" 
+          type="action.py"
+          name="husky_as"
+          output="screen">
+    </node>
+</launch>

@@ -1,0 +1,11 @@
+<launch>
+
+<include file="$(find husky_as)/launch/launcher.launch"/> 
+<include file="$(find husky_service)/launch/launcher.launch"/> 
+
+    <node pkg="husky_main" 
+          type="husky_commander.py"
+          name="husky_commander"
+          output="screen">
+    </node>
+</launch>

@@ -1,0 +1,7 @@
+<launch>
+    <node pkg="husky_service" 
+          type="service.py"
+          name="husky_service"
+          output="screen">
+    </node>
+</launch>
